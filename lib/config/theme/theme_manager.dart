@@ -7,7 +7,7 @@ class ThemeManager {
     useMaterial3: true,
     colorScheme: const ColorScheme.dark(
       primary: primaryAppColor,
-      background: scaffoldBackgroundColor,
+      surface: scaffoldBackgroundColor,
       brightness: Brightness.dark,
       error: errorColor,
     ),

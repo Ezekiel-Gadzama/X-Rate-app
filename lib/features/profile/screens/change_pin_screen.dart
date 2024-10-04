@@ -235,7 +235,7 @@ class _ChangeLoginPinScreenState extends State<ChangeLoginPinScreen> {
                             children: [
                               TextButton(
                                 style: ButtonStyle(
-                                  fixedSize: MaterialStatePropertyAll(
+                                  fixedSize: WidgetStatePropertyAll(
                                     Size(heightValue75, heightValue75),
                                   ),
                                 ),
@@ -248,7 +248,7 @@ class _ChangeLoginPinScreenState extends State<ChangeLoginPinScreen> {
                               ),
                               TextButton(
                                 style: ButtonStyle(
-                                  fixedSize: MaterialStatePropertyAll(
+                                  fixedSize: WidgetStatePropertyAll(
                                     Size(heightValue75, heightValue75),
                                   ),
                                 ),
@@ -321,7 +321,7 @@ class _ChangeLoginPinScreenState extends State<ChangeLoginPinScreen> {
                             children: [
                               TextButton(
                                 style: ButtonStyle(
-                                  fixedSize: MaterialStatePropertyAll(
+                                  fixedSize: WidgetStatePropertyAll(
                                     Size(heightValue75, heightValue75),
                                   ),
                                 ),
@@ -332,7 +332,7 @@ class _ChangeLoginPinScreenState extends State<ChangeLoginPinScreen> {
                                   onTap: () => addDigit(0), numberText: '0'),
                               TextButton(
                                 style: ButtonStyle(
-                                  fixedSize: MaterialStatePropertyAll(
+                                  fixedSize: WidgetStatePropertyAll(
                                     Size(heightValue75, heightValue75),
                                   ),
                                 ),

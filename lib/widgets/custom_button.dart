@@ -25,16 +25,16 @@ class CustomButton extends StatelessWidget {
       onPressed: onTap,
       style: ButtonStyle(
           splashFactory: InkSplash.splashFactory,
-          overlayColor: MaterialStatePropertyAll(
+          overlayColor: WidgetStatePropertyAll(
             whiteColor.withOpacity(0.2),
           ),
-          backgroundColor: MaterialStatePropertyAll(
+          backgroundColor: WidgetStatePropertyAll(
             buttonColor,
           ),
-          fixedSize: MaterialStatePropertyAll(
+          fixedSize: WidgetStatePropertyAll(
             Size(screenWidth, heightValue60),
           ),
-          shape: MaterialStatePropertyAll(
+          shape: WidgetStatePropertyAll(
             RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(borderRadius),
               side: BorderSide(

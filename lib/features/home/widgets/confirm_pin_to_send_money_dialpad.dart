@@ -169,7 +169,7 @@ class _ConfirmPinToSendMoneyDialPadState
                   children: [
                     TextButton(
                       style: ButtonStyle(
-                        fixedSize: MaterialStatePropertyAll(
+                        fixedSize: WidgetStatePropertyAll(
                           Size(heightValue75, heightValue75),
                         ),
                       ),
@@ -184,7 +184,7 @@ class _ConfirmPinToSendMoneyDialPadState
                     ),
                     TextButton(
                       style: ButtonStyle(
-                        fixedSize: MaterialStatePropertyAll(
+                        fixedSize: WidgetStatePropertyAll(
                           Size(heightValue75, heightValue75),
                         ),
                       ),

@@ -167,7 +167,7 @@ class _LoginPinScreenState extends State<LoginPinScreen> {
                       style: ButtonStyle(
                           // backgroundColor:
                           //     MaterialStatePropertyAll(primaryAppColor),
-                          fixedSize: MaterialStatePropertyAll(
+                          fixedSize: WidgetStatePropertyAll(
                               Size(heightValue75, heightValue75))),
                       onPressed: () {
                         showDialog(
@@ -220,7 +220,7 @@ class _LoginPinScreenState extends State<LoginPinScreen> {
                     NumberDialPad(onTap: () => addDigit(0), numberText: '0'),
                     TextButton(
                       style: ButtonStyle(
-                        fixedSize: MaterialStatePropertyAll(
+                        fixedSize: WidgetStatePropertyAll(
                           Size(heightValue75, heightValue75),
                         ),
                       ),

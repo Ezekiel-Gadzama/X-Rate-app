@@ -1,4 +1,4 @@
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
 
 String? validateField(String? value) {
   if (value!.isEmpty) {

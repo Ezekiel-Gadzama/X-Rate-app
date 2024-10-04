@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/core/utils/color_constants.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
-import 'package:pay_mobile_app/widgets/height_space.dart';
+import 'package:x_rate_app/core/utils/color_constants.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/widgets/height_space.dart';
 
 class ReceiversMessageCard extends StatelessWidget {
   final String message;

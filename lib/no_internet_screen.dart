@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/core/utils/assets.dart';
-import 'package:pay_mobile_app/core/utils/color_constants.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
-import 'package:pay_mobile_app/widgets/custom_button.dart';
+import 'package:x_rate_app/core/utils/assets.dart';
+import 'package:x_rate_app/core/utils/color_constants.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/widgets/custom_button.dart';
 
 class NoInternetScreen extends StatelessWidget {
   final VoidCallback onTap;

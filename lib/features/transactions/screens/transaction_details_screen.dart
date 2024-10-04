@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:pay_mobile_app/core/utils/assets.dart';
-import 'package:pay_mobile_app/core/utils/color_constants.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
-import 'package:pay_mobile_app/features/home/screens/comming_soon_screen.dart';
-import 'package:pay_mobile_app/features/transactions/widgets/transaction_details_container.dart';
+import 'package:x_rate_app/core/utils/assets.dart';
+import 'package:x_rate_app/core/utils/color_constants.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/features/home/screens/comming_soon_screen.dart';
+import 'package:x_rate_app/features/transactions/widgets/transaction_details_container.dart';
 
-import 'package:pay_mobile_app/features/transactions/models/transactions.dart';
-import 'package:pay_mobile_app/widgets/height_space.dart';
+import 'package:x_rate_app/features/transactions/models/transactions.dart';
+import 'package:x_rate_app/widgets/height_space.dart';
 
 class TransactionDetailsScreen extends StatelessWidget {
   static const String route = "/transaction-details";

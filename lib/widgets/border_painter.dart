@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/core/utils/color_constants.dart';
+import 'package:x_rate_app/core/utils/color_constants.dart';
 
 class BorderPainter extends CustomPainter {
   final Color firstColor;

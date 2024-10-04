@@ -1,25 +1,25 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/config/routes/custom_push_navigators.dart';
-import 'package:pay_mobile_app/core/utils/assets.dart';
-import 'package:pay_mobile_app/features/home/screens/comming_soon_screen.dart';
-import 'package:pay_mobile_app/features/home/widgets/add_send_funds_container.dart';
-import 'package:pay_mobile_app/widgets/height_space.dart';
-import 'package:pay_mobile_app/features/home/widgets/payment_containers.dart';
+import 'package:x_rate_app/config/routes/custom_push_navigators.dart';
+import 'package:x_rate_app/core/utils/assets.dart';
+import 'package:x_rate_app/features/home/screens/comming_soon_screen.dart';
+import 'package:x_rate_app/features/home/widgets/add_send_funds_container.dart';
+import 'package:x_rate_app/widgets/height_space.dart';
+import 'package:x_rate_app/features/home/widgets/payment_containers.dart';
 import 'package:provider/provider.dart';
 
-import 'package:pay_mobile_app/core/utils/color_constants.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
-import 'package:pay_mobile_app/features/auth/services/auth_service.dart';
-import 'package:pay_mobile_app/features/home/screens/send_money_screen.dart';
-import 'package:pay_mobile_app/features/home/services/home_service.dart';
-import 'package:pay_mobile_app/features/transactions/screens/transaction_details_screen.dart';
-import 'package:pay_mobile_app/features/transactions/widgets/transactions_card.dart';
-import 'package:pay_mobile_app/features/transactions/models/transactions.dart';
-import 'package:pay_mobile_app/features/auth/providers/user_provider.dart';
-import 'package:pay_mobile_app/widgets/circular_loader.dart';
-import 'package:pay_mobile_app/widgets/custom_button.dart';
+import 'package:x_rate_app/core/utils/color_constants.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/features/auth/services/auth_service.dart';
+import 'package:x_rate_app/features/home/screens/send_money_screen.dart';
+import 'package:x_rate_app/features/home/services/home_service.dart';
+import 'package:x_rate_app/features/transactions/screens/transaction_details_screen.dart';
+import 'package:x_rate_app/features/transactions/widgets/transactions_card.dart';
+import 'package:x_rate_app/features/transactions/models/transactions.dart';
+import 'package:x_rate_app/features/auth/providers/user_provider.dart';
+import 'package:x_rate_app/widgets/circular_loader.dart';
+import 'package:x_rate_app/widgets/custom_button.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String route = '/home-screens';

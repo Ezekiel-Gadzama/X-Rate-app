@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/config/routes/custom_push_navigators.dart';
-import 'package:pay_mobile_app/core/utils/color_constants.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
-import 'package:pay_mobile_app/core/utils/assets.dart';
-import 'package:pay_mobile_app/features/auth/screens/forgort_password_screen.dart';
-import 'package:pay_mobile_app/features/auth/screens/signup_screen.dart';
-import 'package:pay_mobile_app/features/auth/screens/signup_verification_screen.dart';
-import 'package:pay_mobile_app/features/auth/services/auth_service.dart';
-import 'package:pay_mobile_app/features/auth/providers/auth_provider.dart';
-import 'package:pay_mobile_app/features/auth/providers/user_provider.dart';
-import 'package:pay_mobile_app/widgets/custom_app_bar.dart';
-import 'package:pay_mobile_app/widgets/custom_button.dart';
-import 'package:pay_mobile_app/widgets/custom_textfield.dart';
-import 'package:pay_mobile_app/widgets/height_space.dart';
-import 'package:pay_mobile_app/widgets/main_app.dart';
+import 'package:x_rate_app/config/routes/custom_push_navigators.dart';
+import 'package:x_rate_app/core/utils/color_constants.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/core/utils/assets.dart';
+import 'package:x_rate_app/features/auth/screens/forgort_password_screen.dart';
+import 'package:x_rate_app/features/auth/screens/signup_screen.dart';
+import 'package:x_rate_app/features/auth/screens/signup_verification_screen.dart';
+import 'package:x_rate_app/features/auth/services/auth_service.dart';
+import 'package:x_rate_app/features/auth/providers/auth_provider.dart';
+import 'package:x_rate_app/features/auth/providers/user_provider.dart';
+import 'package:x_rate_app/widgets/custom_app_bar.dart';
+import 'package:x_rate_app/widgets/custom_button.dart';
+import 'package:x_rate_app/widgets/custom_textfield.dart';
+import 'package:x_rate_app/widgets/height_space.dart';
+import 'package:x_rate_app/widgets/main_app.dart';
 import 'package:provider/provider.dart';
 
 class LoginScreen extends StatefulWidget {

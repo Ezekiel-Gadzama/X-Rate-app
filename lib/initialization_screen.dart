@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/widgets/circular_loader.dart';
+import 'package:x_rate_app/widgets/circular_loader.dart';
 
 class InitializationScreen extends StatelessWidget {
   const InitializationScreen({super.key});

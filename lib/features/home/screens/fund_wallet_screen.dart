@@ -3,15 +3,15 @@ Then it confirms their pin and updates their balance
 You can implement an actual deposit feature if you want*/
 
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/core/utils/color_constants.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
-import 'package:pay_mobile_app/core/utils/assets.dart';
-import 'package:pay_mobile_app/features/home/services/home_service.dart';
-import 'package:pay_mobile_app/features/home/widgets/confirm_pin_to_send_money_dialpad.dart';
-import 'package:pay_mobile_app/features/auth/providers/user_provider.dart';
-import 'package:pay_mobile_app/widgets/custom_app_bar.dart';
-import 'package:pay_mobile_app/widgets/custom_button.dart';
-import 'package:pay_mobile_app/widgets/custom_textfield.dart';
+import 'package:x_rate_app/core/utils/color_constants.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/core/utils/assets.dart';
+import 'package:x_rate_app/features/home/services/home_service.dart';
+import 'package:x_rate_app/features/home/widgets/confirm_pin_to_send_money_dialpad.dart';
+import 'package:x_rate_app/features/auth/providers/user_provider.dart';
+import 'package:x_rate_app/widgets/custom_app_bar.dart';
+import 'package:x_rate_app/widgets/custom_button.dart';
+import 'package:x_rate_app/widgets/custom_textfield.dart';
 import 'package:provider/provider.dart';
 
 class FundWalletScreen extends StatefulWidget {

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:pay_mobile_app/core/utils/color_constants.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
-import 'package:pay_mobile_app/features/home/screens/send_money_screen.dart';
-import 'package:pay_mobile_app/features/transactions/screens/transaction_details_screen.dart';
-import 'package:pay_mobile_app/features/transactions/services/transactions_services.dart';
-import 'package:pay_mobile_app/features/transactions/widgets/transactions_card.dart';
-import 'package:pay_mobile_app/features/transactions/models/transactions.dart';
-import 'package:pay_mobile_app/widgets/circular_loader.dart';
-import 'package:pay_mobile_app/widgets/custom_button.dart';
+import 'package:x_rate_app/core/utils/color_constants.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/features/home/screens/send_money_screen.dart';
+import 'package:x_rate_app/features/transactions/screens/transaction_details_screen.dart';
+import 'package:x_rate_app/features/transactions/services/transactions_services.dart';
+import 'package:x_rate_app/features/transactions/widgets/transactions_card.dart';
+import 'package:x_rate_app/features/transactions/models/transactions.dart';
+import 'package:x_rate_app/widgets/circular_loader.dart';
+import 'package:x_rate_app/widgets/custom_button.dart';
 
 class TransactionsScreen extends StatefulWidget {
   static const String route = "/transactions-screen";

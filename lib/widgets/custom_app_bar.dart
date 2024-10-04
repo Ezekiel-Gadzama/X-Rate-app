@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String image;

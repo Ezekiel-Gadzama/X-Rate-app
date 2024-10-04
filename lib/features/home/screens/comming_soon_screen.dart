@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
-import 'package:pay_mobile_app/core/utils/assets.dart';
-import 'package:pay_mobile_app/widgets/border_painter.dart';
-import 'package:pay_mobile_app/widgets/height_space.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/core/utils/assets.dart';
+import 'package:x_rate_app/widgets/border_painter.dart';
+import 'package:x_rate_app/widgets/height_space.dart';
 
 class CommingSoonScreen extends StatelessWidget {
   static const String route = "/comming-soon-screen";

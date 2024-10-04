@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:pay_mobile_app/config/routes/custom_push_navigators.dart';
-import 'package:pay_mobile_app/core/utils/utils.dart';
+import 'package:x_rate_app/config/routes/custom_push_navigators.dart';
+import 'package:x_rate_app/core/utils/utils.dart';
 
 void statusCodeHandler({
   required BuildContext context,

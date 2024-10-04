@@ -1,13 +1,13 @@
 // ignore_for_file: avoid_print
 
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
-import 'package:pay_mobile_app/core/utils/assets.dart';
-import 'package:pay_mobile_app/features/profile/services/profile_services.dart';
-import 'package:pay_mobile_app/features/auth/providers/user_provider.dart';
-import 'package:pay_mobile_app/widgets/height_space.dart';
-import 'package:pay_mobile_app/widgets/number_dial_pad.dart';
-import 'package:pay_mobile_app/widgets/pin_input_field.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/core/utils/assets.dart';
+import 'package:x_rate_app/features/profile/services/profile_services.dart';
+import 'package:x_rate_app/features/auth/providers/user_provider.dart';
+import 'package:x_rate_app/widgets/height_space.dart';
+import 'package:x_rate_app/widgets/number_dial_pad.dart';
+import 'package:x_rate_app/widgets/pin_input_field.dart';
 import 'package:provider/provider.dart';
 
 class ChangeLoginPinScreen extends StatefulWidget {

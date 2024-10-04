@@ -6,16 +6,16 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:pay_mobile_app/config/routes/custom_push_navigators.dart';
-import 'package:pay_mobile_app/core/error/error_handler.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
-import 'package:pay_mobile_app/core/utils/utils.dart';
-import 'package:pay_mobile_app/features/onboarding/screens/onboarding_screen.dart';
-import 'package:pay_mobile_app/features/profile/models/message_model.dart';
-import 'package:pay_mobile_app/features/profile/providers/chat_provider.dart';
-import 'package:pay_mobile_app/features/profile/screens/chat_screen.dart';
-import 'package:pay_mobile_app/features/auth/providers/user_provider.dart';
-import 'package:pay_mobile_app/widgets/main_app.dart';
+import 'package:x_rate_app/config/routes/custom_push_navigators.dart';
+import 'package:x_rate_app/core/error/error_handler.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/core/utils/utils.dart';
+import 'package:x_rate_app/features/onboarding/screens/onboarding_screen.dart';
+import 'package:x_rate_app/features/profile/models/message_model.dart';
+import 'package:x_rate_app/features/profile/providers/chat_provider.dart';
+import 'package:x_rate_app/features/profile/screens/chat_screen.dart';
+import 'package:x_rate_app/features/auth/providers/user_provider.dart';
+import 'package:x_rate_app/widgets/main_app.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

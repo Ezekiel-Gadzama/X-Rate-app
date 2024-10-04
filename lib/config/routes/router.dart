@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/config/routes/page_fade_transition.dart';
-import 'package:pay_mobile_app/config/routes/page_slide_transition.dart';
-import 'package:pay_mobile_app/features/auth/screens/forgort_password_screen.dart';
-import 'package:pay_mobile_app/features/auth/screens/forgort_password_verification_screen.dart';
-import 'package:pay_mobile_app/features/auth/screens/forgort_pin_screen.dart';
-import 'package:pay_mobile_app/features/auth/screens/forgort_pin_verification_screen.dart';
-import 'package:pay_mobile_app/features/auth/screens/login_screen.dart';
-import 'package:pay_mobile_app/features/auth/screens/signup_screen.dart';
-import 'package:pay_mobile_app/features/auth/screens/signup_verification_screen.dart';
-import 'package:pay_mobile_app/features/home/screens/comming_soon_screen.dart';
-import 'package:pay_mobile_app/features/home/screens/fund_wallet_screen.dart';
-import 'package:pay_mobile_app/features/home/screens/home_screen.dart';
-import 'package:pay_mobile_app/features/home/screens/send_money_screen.dart';
-import 'package:pay_mobile_app/features/onboarding/screens/onboarding_screen.dart';
-import 'package:pay_mobile_app/features/profile/screens/change_pin_screen.dart';
-import 'package:pay_mobile_app/features/profile/screens/chat_screen.dart';
-import 'package:pay_mobile_app/features/transactions/screens/all_transactions_screen.dart';
-import 'package:pay_mobile_app/features/transactions/screens/transaction_details_screen.dart';
-import 'package:pay_mobile_app/main.dart';
-import 'package:pay_mobile_app/features/transactions/models/transactions.dart';
-import 'package:pay_mobile_app/widgets/main_app.dart';
+import 'package:x_rate_app/config/routes/page_fade_transition.dart';
+import 'package:x_rate_app/config/routes/page_slide_transition.dart';
+import 'package:x_rate_app/features/auth/screens/forgort_password_screen.dart';
+import 'package:x_rate_app/features/auth/screens/forgort_password_verification_screen.dart';
+import 'package:x_rate_app/features/auth/screens/forgort_pin_screen.dart';
+import 'package:x_rate_app/features/auth/screens/forgort_pin_verification_screen.dart';
+import 'package:x_rate_app/features/auth/screens/login_screen.dart';
+import 'package:x_rate_app/features/auth/screens/signup_screen.dart';
+import 'package:x_rate_app/features/auth/screens/signup_verification_screen.dart';
+import 'package:x_rate_app/features/home/screens/comming_soon_screen.dart';
+import 'package:x_rate_app/features/home/screens/fund_wallet_screen.dart';
+import 'package:x_rate_app/features/home/screens/home_screen.dart';
+import 'package:x_rate_app/features/home/screens/send_money_screen.dart';
+import 'package:x_rate_app/features/onboarding/screens/onboarding_screen.dart';
+import 'package:x_rate_app/features/profile/screens/change_pin_screen.dart';
+import 'package:x_rate_app/features/profile/screens/chat_screen.dart';
+import 'package:x_rate_app/features/transactions/screens/all_transactions_screen.dart';
+import 'package:x_rate_app/features/transactions/screens/transaction_details_screen.dart';
+import 'package:x_rate_app/main.dart';
+import 'package:x_rate_app/features/transactions/models/transactions.dart';
+import 'package:x_rate_app/widgets/main_app.dart';
 
 Route<dynamic> appRoutes(RouteSettings routeSettings) {
   switch (routeSettings.name) {

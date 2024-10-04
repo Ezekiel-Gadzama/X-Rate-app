@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
-import 'package:pay_mobile_app/features/profile/models/message_model.dart';
-import 'package:pay_mobile_app/features/profile/providers/chat_provider.dart';
-import 'package:pay_mobile_app/features/profile/services/profile_services.dart';
-import 'package:pay_mobile_app/features/profile/widgets/receivers_message_card.dart.dart';
-import 'package:pay_mobile_app/features/profile/widgets/senders_message_card.dart';
-import 'package:pay_mobile_app/features/auth/providers/user_provider.dart';
-import 'package:pay_mobile_app/widgets/custom_textfield.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/features/profile/models/message_model.dart';
+import 'package:x_rate_app/features/profile/providers/chat_provider.dart';
+import 'package:x_rate_app/features/profile/services/profile_services.dart';
+import 'package:x_rate_app/features/profile/widgets/receivers_message_card.dart.dart';
+import 'package:x_rate_app/features/profile/widgets/senders_message_card.dart';
+import 'package:x_rate_app/features/auth/providers/user_provider.dart';
+import 'package:x_rate_app/widgets/custom_textfield.dart';
 import 'package:provider/provider.dart';
 import 'package:socket_io_client/socket_io_client.dart' as IO;
 

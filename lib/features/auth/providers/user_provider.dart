@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/features/auth/models/user.dart';
+import 'package:x_rate_app/features/auth/models/user.dart';
 
 class UserProvider extends ChangeNotifier {
   User _user = User(

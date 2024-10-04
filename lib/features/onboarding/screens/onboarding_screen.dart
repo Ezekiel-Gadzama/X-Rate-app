@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:pay_mobile_app/core/utils/color_constants.dart';
-import 'package:pay_mobile_app/core/utils/global_constants.dart';
-import 'package:pay_mobile_app/core/utils/assets.dart';
-import 'package:pay_mobile_app/features/auth/screens/login_screen.dart';
-import 'package:pay_mobile_app/features/auth/screens/signup_screen.dart';
-import 'package:pay_mobile_app/features/onboarding/screens/widgets/glassmorphic_card.dart';
-import 'package:pay_mobile_app/widgets/custom_button.dart';
-import 'package:pay_mobile_app/widgets/height_space.dart';
+import 'package:x_rate_app/core/utils/color_constants.dart';
+import 'package:x_rate_app/core/utils/global_constants.dart';
+import 'package:x_rate_app/core/utils/assets.dart';
+import 'package:x_rate_app/features/auth/screens/login_screen.dart';
+import 'package:x_rate_app/features/auth/screens/signup_screen.dart';
+import 'package:x_rate_app/features/onboarding/screens/widgets/glassmorphic_card.dart';
+import 'package:x_rate_app/widgets/custom_button.dart';
+import 'package:x_rate_app/widgets/height_space.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   static const String route = "/onboarding-screen";
